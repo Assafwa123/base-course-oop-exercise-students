@@ -1,5 +1,7 @@
 package Entities;
 
+import AerialVehicles.AerialVehicle;
+
 public class Coordinates {
     Double longitude;
 
@@ -9,6 +11,10 @@ public class Coordinates {
     }
 
     Double latitude;
+
+    public Coordinates() {
+
+    }
 
     public Double getLatitude() {
         return latitude;
